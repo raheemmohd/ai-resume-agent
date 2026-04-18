@@ -20,5 +20,5 @@ jobs:
             cd ~/ai-resume-agent || git clone https://github.com/raheemmohd/ai-resume-agent.git
             cd ~/ai-resume-agent
             git pull origin main
-            docker-compose down
-            docker-compose up -d --build
+            docker compose down
+            docker compose up -d --build
